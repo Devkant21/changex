@@ -1,12 +1,18 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import { Container, Flex, VStack, Heading, FormControl, HStack, Text } from '@chakra-ui/react'
+import { Container, Flex, VStack, FormControl, Text } from '@chakra-ui/react'
 import theme from './theme'
 import { Img } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 
 const Laura = () => {
   return (
-    <Container maxW="container.lg" padding={4}>
+    <motion.div
+      inital={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1.5, duration: 1.5 }}
+      >
+      <Container maxW="container.lg" padding={4}>
         <Flex h="40vh" p={5}>
             <VStack 
                 w="md" 
@@ -48,7 +54,8 @@ const Laura = () => {
               </FormControl>   
             </VStack>
           </Flex>
-    </Container>
+      </Container>
+    </motion.div>
   )
 }
 

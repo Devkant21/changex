@@ -1,3 +1,4 @@
+import ChangeX from './components/ChangeX';
 import Navbar from './components/Navbar';
 import Devkant from './Devkant';
 import Laura from './Laura'
@@ -10,6 +11,7 @@ function App() {
     <>
     
       <Navbar />
+      <ChangeX />
       <Laura />
       <Devkant />
     </>
