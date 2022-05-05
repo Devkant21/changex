@@ -1,13 +1,13 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter'
-import { Container, Flex, VStack, Heading, FormControl, HStack, Img, Text } from '@chakra-ui/react'
+import { Container, Flex, VStack,  FormControl, Img, Text } from '@chakra-ui/react'
 import Delayed from './Delayed';
 
 
 const Devkant = () => {
     return (
       <Delayed>
-        <Container>
+        <Container maxW="container.lg" padding={4}>
             <Flex h="70vh" w="60vw">
                 <VStack
                 bgGradient='linear(to-l, #7928CA, #FF0080)'
