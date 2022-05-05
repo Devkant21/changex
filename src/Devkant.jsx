@@ -25,7 +25,7 @@ const Devkant = () => {
                         typeSpeed={100}
                         delaySpeed={30000}
                         
-                        words={[' Hi Laura. Thank you for your email. I am intrigued by the work ChangeX is doing to bring together the various strata of communities together']}  
+                        words={[' Hi Laura. Thank you for your email. I am intrigued by the work ChangeX is doing to bring together the various strata of communities. I believe "it\"ll be an exciting endeavour to work and bring change in the lives of people.']}  
                     />
                 </FormControl> 
             </VStack>
