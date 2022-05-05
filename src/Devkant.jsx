@@ -7,8 +7,8 @@ import Delayed from './Delayed';
 const Devkant = () => {
     return (
       <Delayed>
-        <Container maxW="container.lg" padding={4}>
-            <Flex h="70vh" w="60vw">
+        <Container maxW="container.xl" padding={20}>
+            <Flex h="50vh">
                 <VStack
                 bgGradient='linear(to-l, #7928CA, #FF0080)'
                 textColor="white"
@@ -22,7 +22,7 @@ const Devkant = () => {
                         loop={1}
                         cursor
                         cursorStyle="_"
-                        typeSpeed={70}
+                        typeSpeed={100}
                         delaySpeed={30000}
                         
                         words={[' Hi Laura. Often, we read outer dialogue, which occurs between two characters as spoken language. Examples of Dialogue: "Lisa," said Kyle, "I need help moving this box of toys for the garage sale. Will you help me?" Hi Laura. Often, we read outer dialogue, which occurs between two characters as spoken language. Examples of Dialogue: "Lisa," said Kyle, "I need help moving this box of toys for the garage sale. Will you help me?" Hi Laura. Often, we read outer dialogue, which occurs between two characters as spoken language. Examples of Dialogue: "Lisa," said Kyle, "I need help moving this box of toys for the garage sale. Will you help me?"']}  
