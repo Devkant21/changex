@@ -1,18 +1,17 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import { Container, Flex, VStack, FormControl, Text, Box } from '@chakra-ui/react'
+import { Container, Flex, VStack, FormControl, Text } from '@chakra-ui/react'
 import { Img } from '@chakra-ui/react'
-import { motion } from 'framer-motion'
 
 const Laura = () => {
   return (
     <>
-      <Container maxW="container.xl" padding={10}>
+      <Container maxW='container.xl'>
         <Flex grow h="50vh" w="100vw" p={5}>
           <VStack 
             w="md" 
             h="md" 
-            p={10}
+            p={5}
             align="flex-start">
               <Img
                 borderRadius='full'
