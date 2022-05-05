@@ -7,7 +7,7 @@ import Delayed from './Delayed';
 const Devkant = () => {
     return (
       <Delayed>
-        <Container maxW="container.xl" padding={20}>
+        <Container maxW='container.xl' padding={20}>
             <Flex h="50vh">
                 <VStack
                 bgGradient='linear(to-l, #7928CA, #FF0080)'
@@ -25,14 +25,14 @@ const Devkant = () => {
                         typeSpeed={100}
                         delaySpeed={30000}
                         
-                        words={[' Hi Laura. Often, we read outer dialogue, which occurs between two characters as spoken language. Examples of Dialogue: "Lisa," said Kyle, "I need help moving this box of toys for the garage sale. Will you help me?" Hi Laura. Often, we read outer dialogue, which occurs between two characters as spoken language. Examples of Dialogue: "Lisa," said Kyle, "I need help moving this box of toys for the garage sale. Will you help me?" Hi Laura. Often, we read outer dialogue, which occurs between two characters as spoken language. Examples of Dialogue: "Lisa," said Kyle, "I need help moving this box of toys for the garage sale. Will you help me?"']}  
+                        words={[' Hi Laura. Thank you for your email. I am intrigued by the work ChangeX is doing to bring together the various strata of communities together']}  
                     />
                 </FormControl> 
             </VStack>
             <VStack 
                 w="md" 
                 h="md" 
-                p={10}
+                p={5}
                 align="flex-end">
                     <Img
                     borderRadius='full'

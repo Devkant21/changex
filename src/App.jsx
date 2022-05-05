@@ -2,17 +2,15 @@ import ChangeX from './components/ChangeX';
 import Navbar from './components/Navbar';
 import Devkant from './Devkant';
 import Laura from './Laura'
-import { Box, Container } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
 import Footer from './components/Footer';
 
-// const Laura = lazy(() => import('./Laura'))
-// const Devkant = lazy(() => import('./Devkant'))
 
 function App() {
   return(
     <>
       <Navbar />
-        <Container maxW="container.xl" padding={20}
+        <Container maxW='container.xl' padding={20}
           bgGradient={[
             'linear(to-tr, teal.300, yellow.400)',
             'linear(to-t, blue.200, teal.500)',

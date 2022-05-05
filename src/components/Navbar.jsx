@@ -1,16 +1,16 @@
 import React from 'react'
-import { Flex, Img, Container, VStack } from '@chakra-ui/react'
+import { Flex, Img } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <motion.Container
-      initial={{ y: -250 }}
+    <motion.div
+      initial={{ y: -150 }}
       animate={{ y: -5 }}
       transition={{ delay: 0.4, type: 'spring', stiffness: 80 }}
-      maxW="container.xl" padding={20}
+      maxW='container.xl' padding={20}
       >
-      <Flex grow h="70%"  bgGradient='linear(to-l, #7928CA, #FF0080)' px={600} py={2} justifyItems="center">
+      <Flex grow h="70%"  bgGradient='linear(to-l, #7928CA, #FF0080)' px={600} py={4} alignItems="center" justify="space-between">
         {/* <Box w='100%' h='70px' bgGradient='linear(to-l, #7928CA, #FF0080)' > */}
         <Img
             borderRadius='full'
@@ -25,7 +25,7 @@ const Navbar = () => {
             alt='Devkant Swargiary'
         />
       </Flex>
-    </motion.Container>
+    </motion.div>
   )
 }
 
