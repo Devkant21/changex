@@ -25,7 +25,7 @@ const Devkant = () => {
                         typeSpeed={100}
                         delaySpeed={30000}
                         
-                        words={[" Hi Laura. Thank you for your email. I am intrigued by the work ChangeX is doing to bring together the various strata of communities. I believe 'it\'ll be an exciting endeavour to work and bring change in the lives of people."]}  
+                        words={[" Hi Laura, Thank you for your email. I am intrigued by the work ChangeX is doing to bring together the various strata of communities.I believe it'll be an exciting endeavour to work and re-build the fund-management UI application.I was involved with Auckland Program for Space Systems, a space club of University of Auckland, New Zealand wherein I volunteered in making the “Langmuir Probe”, a payload of a Cube Satellite. The mission’s objective was to determine the magnitude of the earthquake should it occur in New Zealand. I am also involved as a volunteer with Digital Literacy & Skill Development Society [ dlsdsassam.in], a non-profit organization in Assam, India. Here we are working out to provide Computer education to the under privilege children. I am looking forward to contribute to ChangeX. Thanks & Regards. Devkant"]}  
                     />
                 </FormControl> 
             </VStack>
