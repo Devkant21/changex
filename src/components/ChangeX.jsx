@@ -8,8 +8,8 @@ const ChangeX = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1.5, duration: 1.5 }}>
-        <Container maxW="container.xl" p={10}>
-          <Box flexDirection='row' maxW="100%">
+        <Container maxW="container.xl" py={10}>
+          <Box flexDirection='row'>
             <Heading 
               textAlign="center">
               ChangeX - Graduate Software Engineer
