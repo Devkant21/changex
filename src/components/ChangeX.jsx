@@ -10,7 +10,7 @@ const ChangeX = () => {
       transition={{ delay: 1.5, duration: 1.5 }}>
       <Text 
         fontSize="md"
-        textAlign={[ 'left', 'center' ]}>
+        textAlign={[ 'center' ]}>
         ChangeX - Graduate Software Engineer
       </Text>
     </motion.div>

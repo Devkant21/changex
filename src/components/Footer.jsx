@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Flex, Img } from '@chakra-ui/react'
+import { Container, Flex, Img, Text } from '@chakra-ui/react'
+import { Link } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
@@ -11,7 +12,13 @@ const Footer = () => {
             justifyItems="center"
             textColor="whiteAlpha.900"
             fontWeight={'semibold'}>
-                <p>DS | </p>
+            <Text 
+            fontSize="md">
+                GSE
+                <Link href="https://github.com/Devkant21">
+                 | Devkant Swargiary
+                </Link>
+            </Text> 
             </Flex>
         </Container>
         
