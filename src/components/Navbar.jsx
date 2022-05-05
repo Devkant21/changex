@@ -1,9 +1,15 @@
 import React from 'react'
 import { Flex, Image } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
-    <Flex h="75px" bgGradient='linear(to-l, #7928CA, #FF0080)' px={600} justifyItems="center">
+    <motion.div
+      initial={{ y: -250 }}
+      animate={{ y: -5 }}
+      transition={{ delay: 0.4, type: 'spring', stiffness: 80 }}
+      >
+      <Flex h="70px" bgGradient='linear(to-l, #7928CA, #FF0080)' px={600} py={2} justifyItems="center">
         {/* <Box w='100%' h='70px' bgGradient='linear(to-l, #7928CA, #FF0080)' > */}
         <Image
             borderRadius='full'
@@ -19,7 +25,9 @@ const Navbar = () => {
             alt='Devkant Swargiary'
         />
         {/* </Box>  */}
-    </Flex>
+      </Flex>
+    </motion.div>
+    
   )
 }
 
