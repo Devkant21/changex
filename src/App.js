@@ -1,6 +1,5 @@
-
 import Navbar from './components/Navbar';
-// import Devkant from './Devkant';
+import Devkant from './Devkant';
 import Laura from './Laura'
 
 // const Laura = lazy(() => import('./Laura'))
@@ -12,7 +11,7 @@ function App() {
     
       <Navbar />
       <Laura />
-      {/* <Devkant /> */}
+      <Devkant />
     </>
     
   );
