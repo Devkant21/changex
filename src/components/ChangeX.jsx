@@ -11,7 +11,9 @@ const ChangeX = () => {
         <Container maxW="container.xl" py={10}>
           <Box flexDirection='row'>
             <Heading 
-              textAlign="center">
+              mt={-20}
+              textAlign="center"
+              textColor="#7928CA">
               ChangeX - Graduate Software Engineer
             </Heading>
           </Box>
